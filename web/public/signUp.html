@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="signUp.css">
+</head>
+<body>
+    <div id = "headerDiv">
+        <ul>
+            <li><a class="active" href="homePage.html">Home</a></li>
+            <li><a href="logIn.html">log in</a></li>
+            <li><a href="signUp.html">sign up</a></li>
+          </ul>
+    </div>
+    <div class="signup-container">
+        <h2>Sign Up</h2>
+        <form id="signupForm">
+            <div>
+                <label for="username">Username:</label>
+                <input type="text" id="signupUsername" name="username" required>
+            </div>
+            <div>
+                <label for="email">Email:</label>
+                <input type="email" id="signupEmail" name="email" required>
+            </div>
+            <div>
+                <label for="password">Password:</label>
+                <input type="password" id="signupPassword" name="password" required>
+            </div>
+            <div>
+                <button type="submit">Sign Up</button>
+            </div>
+        </form>
+        <div id="signupMessage"></div>
+        <a href = "logIn.html">already have an account? click here to login</a>
+    </div>
+
+    <script src="signUp.js"></script>
+</body>
+</html>

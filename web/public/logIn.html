@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Login</title>
+    <link rel="stylesheet" href="logIn.css">
+
+</head>
+<body>
+
+    <div id = "headerDiv">
+        <ul>
+            <li><a class="active" href="homePage.html">Home</a></li>
+            <li><a href="logIn.html">log in</a></li>
+            <li><a href="signUp.html">sign up</a></li>
+          </ul>
+    </div>
+    <div class="login-container">
+        <h2>Login</h2>
+        <form id="loginForm">
+            <div>
+                <label for="username">Username:</label>
+                <input type="text" id="username" name="username" required>
+            </div>
+            <div>
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" required>
+            </div>
+            <div>
+                <button type="submit">Login</button>
+            </div>
+        </form>
+        <div id="logInMessage"></div>
+        <a href = "signUp.html">click here to create a account</a>
+    </div><br><br>
+
+    <script src="logIn.js"></script>
+
+    
+</body>
+</html>
